@@ -9,7 +9,8 @@ end
 if pigeon_list[name][attribute] == nil
   pigeon_list[name][attribute] = []
 end
-if data[attribute][description].include?(name) pigeon_list[name][attribute] << description.to_s
+if data[attribute][description].include?(name) 
+  pigeon_list[name][attribute] << description.to_s
 end
 end
 end
